@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    background: url(/img/fondo.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+.contenedor-img{
+    height:250px;
+    width:250px;
+    display:flex;
+    margin: 10px auto;
+    align-items: center;
+    
+    
+}
+
+.form-body{
+    background: rgba(245, 245, 245, 0.616);
+    width: 500px;
+    height:800px;
+    padding:15px;
+    color: #dedede;
+    margin-top: 50px;
+    min-width: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 10px px rgba(14, 14, 14, 0.534);
+    border:none 2px;
+    margin: 5px;
+    
+}
+
+
+/*TITULO*/
+.title{
+    
+    text-align: center;
+    font-size: 55px;
+    font-weight:400;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 1px 2px 4px #212222;
+    height: auto;
+
+}
+/*INPUTS TIPO TEXTO*/
+.text{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    color: rgb(241, 241, 241);
+    margin-bottom: 25px;
+
+}
+
+.form-body input[type="text"],
+            [type="password"],
+            [type="email"]{
+              font: size 20px; ;
+              display: block;
+              margin: auto;
+              height: 50px;
+              width: 60%;
+              padding: 20px;
+              color: #fdfbfb;
+              border: 1px solid #a1a5c7;
+              font-size: 20px;
+              font-family: 'Dosis', sans-serif;
+              background-color:#283188;
+              outline: none;
+
+}
+.campo{
+margin-bottom: 20px;    
+
+}
+
+::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.823)
+}
+
+.form-body input:hover{
+    transition: 0.5s;
+    border: 2px ;
+    color:#000000;
+    background-color: #8d76d4;
+    overflow: hidden;
+}
+/*BOTON*/
+.button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 50%;
+    background:#040a3e ;
+    color: #e8e8e8;
+    border-radius: 2px;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease;
+    font-family:'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.button:hover{
+    color:  #570ce3;
+    border: none;
+    background: #6f59c0;
+    font-weight: 700;
+}
+
+/*TEXTO PARA CONECTAR FORMULARIOS*/
+p{
+    text-align: center;
+    color: #111111;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.link{
+    text-decoration: none;
+    color: #5b6aed;
+    font: weight 400px;;
+}
